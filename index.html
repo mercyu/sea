@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>WEB</title>
+<link rel="shortcut icon" href="https://s.tcdn.co/d1f/9e3/d1f9e318-307b-3f81-a37c-4d8be4faba24/20.png" 
+type="image/png">
+  </head>
+
+  <body class="w-sm-100">
+   <header>
+     <div class="container-fluid">
+    <div class="header mx-auto">
+    <div class="row no-gutters">
+      <div class="col-auto"><img id="logo" src="https://s.tcdn.co/d1f/9e3/d1f9e318-307b-3f81-a37c-4d8be4faba24/19.png" alt="logo"/></div>
+      <div class="col-auto"><h1>WEB</h1></div>
+    </div>
+     </div></div>
+    </header>
+
+  <main class="mx-auto">
+    <div><nav class="container"> 
+      <div class="row justify-content-md-center pt-3">
+        <p class="d-md-inline-block col-12 col-md-3 pr-3"><a href="#links" title="Нажмите для перехода к списку ссылок"> Список гиперссылок</a></p>
+        <p class="d-md-inline-block col-12 col-md-3 pr-3"><a href="#table" title="Нажмите для перехода к таблице"> Таблица </a></p> 
+        <p class="d-md-inline-block col-12 col-md-3 pr-3"><a href="#forms" title="Нажмите для перехода к форме"> Форма </a></p> 
+      </div>
+    </nav>
+    </div> 
+
+    <div class="container">
+      <div class="row">
+      <div class="col-12">
+  <h2 id="links" class="m-3">Список гиперссылок</h2>
+	<ol class="pt-2">
+    <li><a href="http://example.com"> абсолютная ссылка </a></li>
+    <li><a href="https://example.com"> абсолютная ссылка с другим протоколом </a></li>
+    
+		<li><a href="ftp://ftp.example.com/downloads/img01.png"> ссылка на файл на сервере FTP без авторизации </a></li>
+    <li><a href="ftp://username:password@ftp.example.com/works/mywork.cpp"> ссылка на файл на сервере FTP с авторизацией </a></li>
+    
+		<li><a href="https://stfalcon.com/ru/blog/post/examples-of-website-menu-designs#footer"> фрагмент некоторой страницы </a></li>
+    <li><a href="#neva"> фрагмент текущей </a></li>
+    
+		<li><a href="https://example.com/products/women?category=dresses&color=green"> ссылка с 2 параметрами в URL</a></li>
+  
+    <li><span>Содержание:</span>
+                   <ul>
+                      <li> <a href="#links" title="Нажмите для перехода к списку ссылок"> Список гиперссылок</a></li>
+                      <li><a href="#forms" title="Нажмите для перехода к форме"> Форма </a></li>
+                   </ul>           
+                </li>
+    
+    <li><a> ссылка без href</a></li>
+    <li><a href=""> ссылка с пустым href </a></li>
+    
+		<li><a href="https://www.the-village.ru/village/city/news-city/361431-eco-death" rel="nofollow"> запрещён переход поисковикам </a></li>
+    <li><a href="https://www.the-village.ru/village/city/news-city/361431-eco-death"><!--noindex--> запрещена для индексации Яндексом <!--/noindex--></a></li>
+    
+		<li><p>контекстная <a href="http://htmlbook.ru/html/a">ссылка</a> в тексте абзаца</p></li>
+    <li><a href="https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B2%D0%B0">
+        <img id="neva" src="20170621_222653.jpg" class="img-fluid" alt="р. Нева" height="400">
+          </a></li>
+
+		<li><p><img src="115455925_large_3720816_kot_i_babochka8.jpg" class="img-fluid mt-1" width="640" height="428" usemap="#map" alt="Навигация"></p>
+  <p><map name="map"> <area  shape="circle" alt="butterfly" coords="264,70,70" href="https://ru.wikipedia.org/wiki/Чешуекрылые">
+    <area shape="rect" alt="cat" coords="257,139,620,428" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%88%D0%BA%D0%B0">
+  </map></p></li>
+
+		<li><!-- http://example.com/about/index1.html,--><a href="index2.html">это ссылка на страницу в текущем каталоге</a></li>
+		<li> <!--http://example.com/about/work/index1.html,--><a href="../index2.html">это ссылка на страницу в каталоге about</a></li>
+		<li> <!--http://example.com/about/work/apps/index1.html,--><a href="../index2.html">это ссылка на страницу в каталоге уровнем выше текущего</a></li>
+		<li> <!--http://example.com/about/work/apps/index1.html,--><a href="../../index2.html">это ссылка на страницу в каталоге 2 уровнями выше текущего</a></li>
+		<li> http://example.com/about, <a href=".">это сокращенная ссылка на главную</a></li>
+		<li> http://example.com/about, <a href="/work/index2.html">это сокращенная ссылка на внутреннюю</a></li>
+  </ol>
+</div>
+
+<div class="col-12 order-2 order-md-1 table-responsive-md">
+  <h2 id="table" class="m-3">Погода в городах Краснодарского края на 22.09.2019</h2>
+  <table class="table-hover">
+    <tr>
+      <th>Город</th>
+      <th>Температура днем</th>
+      <th>Температура ночью</th>
+    </tr>
+    <tr>
+      <td>Краснодар</td>
+      <td>20</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>Сочи</td>
+      <td colspan="2">18</td>
+      
+    </tr>
+    <tr>
+      <td>Геленджик</td>
+      <td>18</td>
+      <td>14</td>
+    </tr>
+    <tr>
+        <td>Новороссийск</td>
+        <td>17</td>
+        <td>13</td>
+      </tr>
+      <tr>
+          <td>Ейск</td>
+          <td>19</td>
+          <td>12</td>
+        </tr>
+  </table>
+</div>
+
+    <div class="col-12 order-1 order-md-2">
+    <h2 id="forms" class="m-3">Форма</h2>
+	<form>
+          <label>
+            Имя:<br>
+	   <input name="field-name-1" value="введите имя"></label><br>
+	<pre>  
+         </pre>
+
+	  <label>
+            Текстовое поле email:<br>
+	   <input name="field-email" type="email" value="test@example.com"> 
+          </label><br>
+	 <pre>
+          </pre>
+
+	  <label>
+            Дата рождения:<br>
+	  <input name="date" type="date" value="2019-08-13">
+          </label><br>
+	 <pre>
+          </pre>
+
+	    Пол:<br>
+	  <label><input checked="checked" name="radio-group-1" 
+            type="radio" value="значение1"> женский</label> 
+          <label><input name="radio-group-1" 
+            type="radio" value="значение2"> мужской</label><br>
+         <pre>
+          </pre>
+
+	    Образование:<br>
+	  <label><input checked="checked" name="radio-group-2"
+            type="radio" value="значение1"> Основное общее</label> 
+          <label><input name="radio-group-2"
+            type="radio" value="значение2"> Среднее общее</label>
+          <label><input  name="radio-group-2"
+            type="radio" value="значение3"> Среднее специальное</label>
+          <label><input  name="radio-group-2"
+            type="radio" value="значение4"> Неполное высшее</label>
+          <label><input  name="radio-group-2" 
+            type="radio" value="значение5"> Высшее</label><br>
+         <pre>
+          </pre>
+
+	  <label>
+            Увлечения:<br>
+		<select multiple="multiple" name="field-name-4[]">
+           <option value="значение1">Спорт</option>
+           <option selected="selected" value="значение2">Музыка</option>
+           <option selected="selected" value="значение3">Кино</option>
+           <option selected="selected" value="значение4">Видеоигры</option>
+           <option selected="selected" value="значение5">Танцы</option>
+           <option selected="selected" value="значение6">Другое</option>
+                </select> </label><br>
+	 <pre>  
+          </pre>
+
+	 <label>
+           Биография:<br>
+		<textarea name="field-name-2">текст</textarea>
+          </label><br>
+
+          Согласие на обработку персональных данных:<br>
+		<label><input name="check-1"
+                  type="checkbox"> Согласен(на)</label><br>
+	 <pre>
+          </pre>
+
+		<input type="submit" value="отправить">
+       </form>
+       </div>
+      </div>
+    </div>
+   </main>
+   <footer class="p-3 mt-2"><p>Krasnodar, 2019</p></footer>
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ </body>
+</html>

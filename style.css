@@ -1,0 +1,60 @@
+    body{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-image: url(https://src.img.photos/2019/04/04/Pdokc.jpg);
+        color: black;
+        background-size: cover;
+        font-size: 18px;
+    }
+    header{
+        width:100%;
+    }
+    .header{
+        background-color: rgba(187, 125, 189, 0.8);
+        border-radius: 20px;
+        max-width:960px;
+        height:160px;
+    }
+    #logo{
+        width:150px;
+        height:150px;
+        border:2px solid rgb(221, 245, 245);
+        background-color: rgb(132, 111, 165);
+        border-radius:50%;
+    }
+    h1{
+        background-color: rgb(146, 106, 170);
+        font-size: 35px;
+        border-radius:20px;
+    }
+    main{ 
+        max-width:960px;
+        vertical-align:center;
+    }
+    nav{
+        font-size: 25px;
+    }
+    a:visited{
+        color:rgb(116, 43, 116);
+    }
+    a:link{
+        color:rgb(144, 104, 238);
+    }
+    table{
+        text-align: center;
+        border:2px solid black;
+    }
+    tr:nth-child(2n){
+        background-color: rgb(214, 117, 190);
+    }
+    tr:nth-child(2n+1){
+        background-color: rgb(180, 128, 223);
+    }
+    td{
+        width:45px;
+        height:20px;
+    }
+    footer{
+        background-color: rgba(45, 27, 58, 0.5);
+        height:100px;
+        width: 100%;
+    }
