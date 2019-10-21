@@ -17,8 +17,8 @@
     #logo{
         width:150px;
         height:150px;
-        border:2px solid rgb(221, 245, 245);
-        background-color: rgb(132, 111, 165);
+        border:2px solid gold;
+        
         border-radius:50%;
     }
     h1{
@@ -27,10 +27,10 @@
         border-radius:20px;
     }
     main{ 
-        max-width:960px;
+       
         vertical-align:center;
     }
-    nav{
+    nav{ max-width:960px;
         font-size: 25px;
     }
     a:visited{
