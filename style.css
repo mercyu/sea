@@ -14,9 +14,8 @@
     }
 }
 @media (min-width: 768px) {
-    body{
-   
-    }
+    nav{
+        font-size: 25px;
 }
     body{
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -47,12 +46,9 @@
         font-size: 25px;
     }
     main{ 
-       
         vertical-align:center;
     }
-    nav{
-        font-size: 25px;
-    }
+   
     a:visited{
         color:rgb(77, 72, 156);
     }
