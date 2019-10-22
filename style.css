@@ -1,16 +1,16 @@
 @media (min-width: 576px) { 
     body{
-        font-size: 13px;
+        font-size: 12px;
     }
     h1{
-        font-size:18px;
+        font-size:15px;
     }
     #logo{
-        width:120px;
-        height:120px;
+        width:100px;
+        height:100px;
     }
-    nav, h2{
-        font-size:15px;
+    nav, h2,footer{
+        font-size:14px;
     }
 }
 @media (min-width: 768px) {
