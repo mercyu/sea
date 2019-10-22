@@ -3,7 +3,7 @@
         font-size: 18px;
     }
     h1{
-        font-size: 30px;  
+        font-size: 30px;
     }
     nav, h2, footer{
         font-size: 25px;
@@ -13,7 +13,7 @@
         height:170px;
     }
     .header, footer{
-        height:180px;
+        height:200px;
     }
 }
     body{
@@ -60,6 +60,6 @@
     }
     footer{
         background-color: rgba(86, 158, 187, 0.5);
-        height:150px;
+        height:180px;
         width: 100%;
     }
