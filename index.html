@@ -67,13 +67,30 @@ type="image/png">
     </div>
     <h2 id="response" class="m-3">Отзывы</h2>
     <div clas="row">
-      <p>
-        
-      </p>
+        <form action="" method="post"><!--Создаем форму-->
+          <input type="text" placeholder="Имя" name="fname" /><!--Создаем строку для ввода имени-->
+          <input type="email" placeholder="E-mail" name="email" /><!--Создаем строку для ввода e-mail (пригодится для ответа)-->
+          <textarea placeholder="Сообщение" name="message" rows="10" cols="45"></textarea><!--Поле для ввода сообщения-->
+          <input type="submit" value="Отправить" /><!--Кнопка отправить-->
+      </form>
     </div>
 </div>
    </main>
-   <footer class="p-3 mt-2" id="footer"><p>Контакты</p></footer>
+   <footer class="p-3 mt-2" id="footer">
+     <div itemscope itemtype="http://schema.org/Organization/LocalBusiness/Store/HobbyShop">
+      <span itemprop="name">Group 22/1</span>
+      Контакты:
+      <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        Адрес:
+        <span itemprop="streetAddress">Ставропольская, 149</span>
+        <span itemprop="postalCode">119021</span>
+        <span itemprop="addressLocality">Краснодар</span>,
+      </div>
+      Телефон: <span itemprop="telephone">+7 918–131–04-58</span>,
+      Электронная почта: <span itemprop="email">s0136701@edu.kubsu.ru</span>
+      Время работы: <time itemprop="openingHours" datetime="Mo-Su">круглосуточно</time>
+    </div>
+  </footer>
    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
