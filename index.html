@@ -54,67 +54,78 @@ type="image/png">
       </div>
 
     <h2 id="text" class="m-3">Описание</h2>
-    <div clas=" text row">
-      <!--Указывается схема Product.-->
-<div itemscope itemtype="http://schema.org/Product">
-  <!--В поле name указывается наименование товара.-->
+    <div class="text">
+      <p>На нашем сайте вы можете купить фотокарточки, фотообои и картины с Средиземноморским пейзажем. Вы можете выбрать уже существующий размер продукта из таблицы или связаться с нами и заказать другой. Забрать готовый продукт вы можете по адресу, указанному в контактной информации.</p>
+    </div>
+    <div class=" container">
+    <div class="row d-flex justify-content-center">
+      <!--схема Product.-->
+      
+<div class="product col-12 col-md-auto" itemscope itemtype="http://schema.org/Product">
     <h1 itemprop="name">Фотокарточка</h1>
-  <!--В поле description дается описание товара.-->
-    <span itemprop="description">Вы можете вложить её в альбом, поставить в фоторамку, подарить в качестве сувенира или оставить на память. Решать вам! Карточка изготовлена из фотобумаги. Представлена в размерах xs, s, m. Цена для xs-100RUB, для s-120RUB,для m-140RUB</span>
-  <!--В поле image указывается ссылка на картинку товара.-->
-    <img src="http://imageexample.com/iphone6plus.jpg" itemprop="image">
-  <!--Указывается схема Offer.-->
-    <div itemprop="offers" itemscope itemtype="http://schema.org/Offer"> 
-  <!--В поле price указывается цена товара.-->
+   
+      <span itemprop="description">Вы можете вложить её в альбом, поставить в фоторамку, подарить в качестве сувенира или оставить на память. Решать вам! Карточка изготовлена из фотобумаги. Представлена в размерах xs, s, m. Цена для xs-100RUB, для s-120RUB,для m-140RUB</span>
+    
+    <div class="mb-2" itemprop="offers" itemscope itemtype="http://schema.org/Offer"> 
       <span itemprop="price">100</span>
-  <!--В поле priceCurrency указывается валюта.-->
       <span itemprop="priceCurrency">RUB</span>
     </div>
 </div>
-    <!--Указывается схема Product.-->
 
-    <div itemscope itemtype="http://schema.org/Product">
-  <!--В поле name указывается наименование товара.-->
+<div clas="row d-flex justify-content-center">
+    <div class="product col-12 col-md-auto" itemscope itemtype="http://schema.org/Product">
     <h1 itemprop="name">Фотообои</h1>
-  <!--В поле description дается описание товара.-->
     <span itemprop="description">Преобразуйте пространство благодаря качественным фотообоям. Размер может подбираться индивидуально.</span>
-  <!--В поле image указывается ссылка на картинку товара.-->
-    <img src="http://imageexample.com/iphone6plus.jpg" itemprop="image">
-  <!--Указывается схема Offer.-->
-    <div itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer"> 
-  <!--В поле price указывается цена товара.-->
+    <div class="mb-2" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer"> 
       <span itemprop="lowPrice">400</span>
-  <!--В поле priceCurrency указывается валюта.-->
       <span itemprop="priceCurrency">RUB</span>
     </div>
-  <!--Указывается схема Product.-->
+</div>
 
-  <div itemscope itemtype="http://schema.org/Product">
-  <!--В поле name указывается наименование товара.-->
+<div clas="row d-flex justify-content-center">
+  <div class="product col-12 col-md-auto" itemscope itemtype="http://schema.org/Product">
     <h1 itemprop="name">Картина</h1>
-  <!--В поле description дается описание товара.-->
     <span itemprop="description">Картина с морем украсит любую стену! Вы можете это проверить, подобрав подходящую рамку и размер. </span>
-  <!--В поле image указывается ссылка на картинку товара.-->
-    <img src="http://imageexample.com/iphone6plus.jpg" itemprop="image">
-  <!--Указывается схема Offer.-->
-    <div itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer"> 
-  <!--В поле price указывается цена товара.-->
+    <div class="mb-2" itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer"> 
       <span itemprop="lowPrice">800</span>
-  <!--В поле priceCurrency указывается валюта.-->
       <span itemprop="priceCurrency">RUB</span>
     </div>
   </div>
   </div>
+  </div>
+    </div>
     </div>
     <h2 id="response" class="m-3">Отзывы</h2>
-    <div clas="row">
-        <form action="" method="post"><!--Создаем форму-->
-          <input type="text" placeholder="Имя" name="fname" /><!--Создаем строку для ввода имени-->
-          <input type="email" placeholder="E-mail" name="email" /><!--Создаем строку для ввода e-mail (пригодится для ответа)-->
-          <textarea placeholder="Сообщение" name="message" rows="10" cols="45"></textarea><!--Поле для ввода сообщения-->
-          <input type="submit" value="Отправить" /><!--Кнопка отправить-->
-      </form>
+    <div clas="container-fluid">
+       <div class="row d-flex flex-column">
+         <div class="col-4 ml-3">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+        </div>
+        <div class="d-flex justify-content-between">
+         <p class="col-6">Всё понравилось! Обязательно закажу ещё.</p>
+         <p class="col-2"><em>Наталья</em></p>
+       </div>
+      </div>
+      <div class="row d-flex flex-column">
+         <div class="col-4 ml-3">
+           <span class="fa fa-star checked"></span>
+           <span class="fa fa-star checked"></span>
+           <span class="fa fa-star checked"></span>
+           <span class="fa fa-star checked"></span>
+           <span class="fa fa-star checked"></span>
+         </div>
+         <div class="d-flex justify-content-between">
+          <p class="col-6">Качественные фото и хорошее отношение к клиентам.</p>
+          <p class="col-2"><em>Алексей</em></p>
+         </div>
+        </div>
     </div>
+  
+
 </div>
    </main>
    <footer class="p-md-3 pl-2 p-1 mt-2" id="footer">

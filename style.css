@@ -12,6 +12,10 @@
     nav, h2, footer{
         font-size:14px;
     }
+    .product {
+        height: 200px;
+        width: 150px;
+    }
 }
 @media (min-width: 768px) {
     body{
@@ -32,6 +36,10 @@
     }
     header{
         height: 180px;
+    }
+    .product {
+        height: 400px;
+        width: 350px;
     }
      footer{
         height:240px;
@@ -57,16 +65,28 @@
         vertical-align:center;
     }
    .text{
-       max-width: 960px;
-       border:2px solid rgb(107, 175, 184);
-       background-color: rgb(221, 245, 245);
-       border-radius: 20px;
-   }
+        max-width: 960px;
+        border:2px solid rgb(107, 175, 184);
+        background-color: rgb(221, 245, 245);
+        border-radius: 20px;
+    }
+   .product {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        background-color: rgb(221, 245, 245);
+    }
+    .product:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
     a:visited{
         color:rgb(77, 72, 156);
     }
     a:link{
         color:rgb(15, 90, 160);
+    }
+    .checked {
+        color: rgb(255, 166, 0);
     }
     footer{
         background-color: rgba(86, 158, 187, 0.5);
