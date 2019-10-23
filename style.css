@@ -17,7 +17,7 @@
     }
     .product {
         height: 280px;
-        width: 150px;
+        width: 200px;
     }
 }
 @media (min-width: 768px) {
@@ -45,7 +45,7 @@
     }
     .product {
         height: 400px;
-        width: 200px;
+        width: 270px;
         font-size: 16px;
     }
      footer{
@@ -73,15 +73,15 @@
     }
    .text{
         max-width: 960px;
-        border:2px solid rgb(107, 175, 184);
-        background-color: rgba(111, 202, 202, 0.76);
+        border:2px solid rgb(137, 225, 236);
+        
         border-radius: 5px;
     }
    .product {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         border-radius: 5px;
-        background-color: rgba(0, 253, 253, 0.527);
+        background-color: rgb(142, 230, 230);
     }
     .product:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
