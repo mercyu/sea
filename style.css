@@ -7,13 +7,13 @@
         height:100px;
     }
      h1{
-        font-size:18px;
+        font-size:20px;
     }
-    nav, h2, footer{
+    nav, h2 {
+        font-size:16px;
+    }
+    .text, footer{
         font-size:14px;
-    }
-    .text{
-        font-size: 12px;
     }
     .product {
         height: 280px;
@@ -45,7 +45,7 @@
     }
     .product {
         height: 400px;
-        width: 260px;
+        width: 250px;
         font-size: 16px;
     }
     .resp{
