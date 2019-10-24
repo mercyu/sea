@@ -66,10 +66,19 @@ type="image/png">
     <div class="mb-1" itemprop="offers" itemscope itemtype="http://schema.org/Offer"> 
       <span itemprop="price">200</span>
       <span itemprop="priceCurrency">RUB</span>
+      <div>В наличии</div>
+      <link itemprop="availability" href="http://schema.org/InStock">
+      <meta itemprop="datePublished" content="2019-10-11">
+      <div itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating">
+         <meta itemprop="worstRating" content="5">
+         #Минимальная оценка
+         <span itemprop="ratingValue">5</span>/ #Оценка пользователя
+         <span itemprop="bestRating">5</span>звезд.  /#Максимальная оценка
+      </div>
     </div>
 </div>
  </div>
-<div clas="row justify-content-center m-3 ">
+<div clas="row justify-content-center m-3">
     <div class="product d-inline-block p-2" itemscope itemtype="http://schema.org/Product">
     <h1 itemprop="name">Фотообои</h1>
     <span itemprop="description">Преобразуйте пространство благодаря качественным фотообоям. Представлены в размерах xs(0.9x0.9m), s(1x1m), m(1.1x1.1m). Цена для xs-600RUB, s-700RUB, m-800RUB.</span>
@@ -78,16 +87,34 @@ type="image/png">
       <span itemprop="lowPrice">600</span>
       <span itemprop="highPrice">800</span>
       <span itemprop="priceCurrency">RUB</span>
+      <div>В наличии</div>
+      <link itemprop="availability" href="http://schema.org/InStock">
+      <meta itemprop="datePublished" content="2019-10-11">
+      <div itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating">
+         <meta itemprop="worstRating" content="5">
+         #Минимальная оценка
+         <span itemprop="ratingValue">5</span>/ #Оценка пользователя
+         <span itemprop="bestRating">5</span>звезд.  /#Максимальная оценка
+      </div>
     </div>
 </div>
 </div>
-<div clas="row  justify-content-center m-3 ">
+<div clas="row justify-content-center m-3">
   <div class="product d-inline-block p-2" itemscope itemtype="http://schema.org/Product">
     <h1 itemprop="name">Картина</h1>
     <span itemprop="description">Картина с морем украсит любую стену! Вы можете это проверить, подобрав подходящую рамку. Единый размер 500х500см. </span>
     <div class="mb-1" itemprop="offers" itemscope itemtype="http://schema.org/Offer"> 
       <span itemprop="price">1000</span>
       <span itemprop="priceCurrency">RUB</span>
+      <div>В наличии</div>
+      <link itemprop="availability" href="http://schema.org/InStock">
+      <meta itemprop="datePublished" content="2019-10-11">
+      <div itemprop="reviewRating" itemscope="" itemtype="http://schema.org/Rating">
+         <meta itemprop="worstRating" content="5">
+         #Минимальная оценка
+         <span itemprop="ratingValue">5</span>/ #Оценка пользователя
+         <span itemprop="bestRating">5</span>звезд.  /#Максимальная оценка
+      </div>
     </div>
   </div>
   </div>
@@ -126,14 +153,14 @@ type="image/png">
 <div class="text justify-content-center p-2">Здесь вы можете посчитать сумму заказа. Цена на все фотографии одинакова и учитывается в цене товара.
 </div>
     
-      <label>
-     <select  name="typeOfProduct" class="custom-select">
+      <label class="m-2">
+     <select name="typeOfProduct" class="custom-select">
        <option selected value="1">Фотокарточка</option>
        <option value="2">Фотообои</option>
        <option value="3">Картина</option>
       </select> </label>
   
-      <div class="custom-control custom-radio">
+      <div class="custom-control custom-radio mt-1">
             <input type="radio" id="option1" name="options" class="custom-control-input">
             <label class="custom-control-label" for="option1">xs</label>
           </div>
@@ -146,19 +173,16 @@ type="image/png">
             <label class="custom-control-label" for="option3">m</label>
           </div>
 
-          <div class="custom-control custom-checkbox">
+          <div class="custom-control custom-checkbox mt-1">
             <input type="checkbox" class="custom-control-input" id="customCheck1">
             <label class="custom-control-label" for="customCheck1">Рамка</label>
           </div>
-
-          <form class="was-validated">
-            <div class="mb-3">
-              <label for="count">Количество позиций</label>
-              <textarea class="form-control is-invalid" id="count" placeholder="Введите количество" required></textarea>
-              <div class="invalid-feedback">
-                Пожалуйста, введите количество позиций.
-              </div>
-            </div>
+         
+          <div class="form-group m-2">
+            <label for="count">Введите количество</label>
+            <textarea class="form-control" id="count"></textarea>
+          </div>
+           <div class="m-2">Итого:</div>
   </main>
    <footer class="p-md-3 pl-2 p-1 mt-2" id="footer">
      <div itemscope itemtype="http://schema.org/Organization">
